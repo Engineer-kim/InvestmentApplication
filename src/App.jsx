@@ -1,6 +1,12 @@
+import Header from "./componets/Header"
+import UserInput from "./componets/UserInput"
+
 function App() {
   return (
-    <h1>React Investment Calculator</h1>
+    <>
+      <Header />
+      <UserInput />
+    </>
   )
 }
 
